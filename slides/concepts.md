@@ -6,7 +6,7 @@
 
 Langage *"human-readable"* proche du JSON
 
-Décrit les ressource utilisées dans Terraform
+Décrit les ressources utilisées dans Terraform
 
 ----
 
@@ -136,7 +136,7 @@ resource "aws_s3_bucket" "lgu-bucket" {
 
 Utilisé pour créer des composants réutilisables, améliorer l'organisation et traiter les éléments de l'infrastructure comme une boite noire
 
-Groupe de ressource qui prend en entrée des *paramètres* et retournent en sortie des *outputs*
+Groupe de ressources qui prend en entrée des *paramètres* et retournent en sortie des *outputs*
 
 ```json
 module "lambda" {
